@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>BubbleDum</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>d33zc5wgm0mg</unique-id>
+    <saved-with-version>21600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>600</width>
+        <height>600</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TiledBackground" sid="5899487182602073">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground2" sid="3285453338503943">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\1330402489_fyt-fon-50.jpg" />
+        </object-type>
+        <object-type name="TiledBackground3" sid="6488986510410965">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\море.png" />
+        </object-type>
+        <object-type name="Р2" sid="5881675975719017">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="7646874493516797">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2800174584098402" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\р.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Т" sid="4038434861714905">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="6691086900705047">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7758857486687106" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\т.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="А" sid="2776998777793309">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Ax" sid="3934697532223012" type="number" />
+                <instance-variable name="Ay" sid="5728625849305283" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Sine" sid="6105331698756538">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2012287263853907" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\А.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="К" sid="2587658799995031">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="7134865100733105">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2181097697416931" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\к.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Т2" sid="9075238202203451">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="9568609472226938">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6478046560682598" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\т.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="О" sid="2040614915531573">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="3358871949199605">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="174249085649545" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\о.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Р" sid="7981952030789519">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="3951357839793241">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5492450975014716" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\р.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="5758594188097371">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Text" sid="9631727006868316">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite" sid="3191951475127805">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7414757125687435" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\1398232392_allday_17.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="З" sid="7925091863700875">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="9287583245454504">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3144656748212662" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\з.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Е" sid="2388285389646711">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="1925928167954329">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2558721011059431" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\е.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="3673696825598051">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2075548600083415" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\remove-01-32.png">
+                        <collision-poly>
+                            <point x="0.1875" y="0.1875" />
+                            <point x="0.5" y="0.375" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.65625" y="0.5" />
+                            <point x="0.84375" y="0.84375" />
+                            <point x="0.5" y="0.65625" />
+                            <point x="0.15625" y="0.84375" />
+                            <point x="0.34375" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Л" sid="6649154822511465">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="841297976607956">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3672649315915073" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\л.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Н" sid="4342404269281598">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="3878404823574191">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3041891329435635" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\н.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Д" sid="2546917609581747">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218104364886557" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\д.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ь" sid="5236331529099437">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="2279816192990798">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5929400280401626" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\ь.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="7367866256046526">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="3279071784221419">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="В" sid="4937698520917053">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="1019125760903082">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7787358876535958" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\в.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="м" sid="3532657807929018">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="8098362086101442">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5460114579161904" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\м.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Б" sid="6890444803570923">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="2078689466057934">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="177936805244702" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\б.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="И" sid="5039298268823386">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="7760888919993538">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3031881494489176" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\и.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="с" sid="993001595980916">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="2638631583696156">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1319223644852721" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\с.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="п" sid="8768489983697614">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="1726515961862925">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9914139111121691" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Мария\Documents\7 semestr\game\картинки\русс\п.png">
+                        <collision-poly>
+                            <point x="0.3275" y="0.3275" />
+                            <point x="0.5" y="0.2575" />
+                            <point x="0.6725" y="0.3275" />
+                            <point x="0.7475" y="0.5" />
+                            <point x="0.68" y="0.68" />
+                            <point x="0.5" y="0.755" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.2525" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text4" sid="4200285520407316">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text5" sid="9193193197784924">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>палата.xml</layout>
+        <layout>карета.xml</layout>
+        <layout>трактор.xml</layout>
+        <layout>календарь.xml</layout>
+        <layout>автомобилист.xml</layout>
+        <layout>меню.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+        <event-sheet>Event sheet 5.xml</event-sheet>
+        <event-sheet>Event sheet 6.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="10" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

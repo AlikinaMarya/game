@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <variable constant="0" name="Text2" sid="3922367641499157" static="0" type="text"></variable>
+        <event-block sid="369839716249752">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8112169963392572" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Л</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="1955942577551478" type="Text2">
+                    <param id="0" name="Text">&quot;Л&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="8232196496518184" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Value">&quot;Л&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6996178155573634">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8944245727588187" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Н</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="8837429438301016" type="Text2">
+                    <param id="0" name="Text">&quot;Н&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="2537158514347791" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Value">&quot;Н&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3199575611386892">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="755505405212628" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Д</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="8702669777078141" type="Text2">
+                    <param id="0" name="Text">&quot;Д&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="7865800053295712" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Value">&quot;Д&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5213950016448698">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8280758084333035" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Ь</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="4843465538613283" type="Text2">
+                    <param id="0" name="Text">&quot;Ь&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="8343575656620166" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Value">&quot;Ь&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6620149426791762">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2997480247936828" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">А</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="8901527978080646" type="Text2">
+                    <param id="0" name="Text">&quot;А&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="6617239217288945" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Value">&quot;А&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="871322655286546">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6004636927367284" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Е</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="6879507102045901" type="Text2">
+                    <param id="0" name="Text">&quot;Е&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="375533807964122" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Value">&quot;Е&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7398069028822911">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2549980494622092" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">К</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="4806459281467775" type="Text2">
+                    <param id="0" name="Text">&quot;К&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="329027065988549" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Value">&quot;К&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7541781361383661">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9578025974570975" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Р</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="1146096808478859" type="Text2">
+                    <param id="0" name="Text">&quot;Р&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="1651271926614164" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Value">&quot;Р&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9488972275435401">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8832757467095394" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2508831251840704" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Value">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="9243186641403897" type="Text2">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6772646951435502">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8872777190015989" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5891613219498768" type="System">
+                    <param id="0" name="Variable">Text2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;КАЛЕНДАРЬ&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="1086835812663987" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
