@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 11</name>
+    <events>
+        <variable constant="0" name="ar12" sid="8703749547271648" static="0" type="text">?</variable>
+        <variable constant="0" name="ar11" sid="4534946246574109" static="0" type="text">?</variable>
+        <event-block sid="8279000859676578">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6461269358324778" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite4</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8004195786835556" type="System">
+                    <param id="0" name="Variable">ar11</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;HIPPOPOTAMUS&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8415285963351353" type="System">
+                    <param id="0" name="Layout">меню</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6401638624491354">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7021388155421688" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3350357259863304" type="System">
+                    <param id="0" name="Variable">ar11</param>
+                    <param id="1" name="Value">&quot;?&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="6447939084917718" type="bubble">
+                    <param id="0" name="Text">&quot;?&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="104752298051254" type="elephant">
+                    <param id="0" name="Text">&quot;?&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3472673700793664">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6576371295970161" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6307047296809711" type="System">
+                    <param id="0" name="Layout">меню</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block collapsed="1" sid="4667530425445723">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4113067820132566" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">plus</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="5396267136493287">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4369424730679857" type="System">
+                            <param id="0" name="Variable">ar11</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;?&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7119713358412361" type="bubble">
+                            <param id="0" name="Text">&quot;+&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="7739910170744234" type="System">
+                            <param id="0" name="Variable">ar11</param>
+                            <param id="1" name="Value">&quot;+&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7234675310387483">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5635787526004869" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="258884665301099" type="elephant">
+                            <param id="0" name="Text">&quot;+&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="5896743035260651" type="System">
+                            <param id="0" name="Variable">ar12</param>
+                            <param id="1" name="Value">&quot;+&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block collapsed="1" sid="6389236267747025">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2226695725162875" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">minus</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="197530622636563">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4312061316873402" type="System">
+                            <param id="0" name="Variable">ar11</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;?&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9947831416076087" type="bubble">
+                            <param id="0" name="Text">&quot;-&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2124728250925503" type="System">
+                            <param id="0" name="Variable">ar11</param>
+                            <param id="1" name="Value">&quot;-&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9066578272762709">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5711805561450672" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9015549079999203" type="System">
+                            <param id="0" name="Variable">ar12</param>
+                            <param id="1" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1113199071286951" type="elephant">
+                            <param id="0" name="Text">&quot;-&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block collapsed="1" sid="5869750068931369">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2921274826458423" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">razd</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="5095434065386324">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8612153746903452" type="System">
+                            <param id="0" name="Variable">ar11</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;?&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="4184147649716249" type="System">
+                            <param id="0" name="Variable">ar11</param>
+                            <param id="1" name="Value">&quot;:&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="5827947196263349" type="bubble">
+                            <param id="0" name="Text">&quot;:&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1321446342011808">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="2246051339820519" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9481132651036013" type="System">
+                            <param id="0" name="Variable">ar12</param>
+                            <param id="1" name="Value">&quot;:&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="5489940006997791" type="elephant">
+                            <param id="0" name="Text">&quot;:&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block collapsed="1" sid="464120120136189">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6336917420181396" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">umn</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2260201108668217">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9429302216901035" type="System">
+                            <param id="0" name="Variable">ar11</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;?&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="6989424423538228" type="System">
+                            <param id="0" name="Variable">ar11</param>
+                            <param id="1" name="Value">&quot;*&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1087237939345753" type="bubble">
+                            <param id="0" name="Text">&quot;*&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="78036842060842">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="21473402632881" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9878144387679476" type="System">
+                            <param id="0" name="Variable">ar12</param>
+                            <param id="1" name="Value">&quot;*&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="8194390483163263" type="elephant">
+                            <param id="0" name="Text">&quot;*&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3406894546941486">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9826917958004471" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite4</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="260858842677059" type="System">
+                    <param id="0" name="Variable">ar12</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;+&quot;</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1249209803966206" type="System">
+                    <param id="0" name="Variable">ar11</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;*&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>

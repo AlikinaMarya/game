@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 24</name>
+    <events>
+        <event-block sid="871994607741981">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9595987523268789" type="Touch">
+                    <param id="0" name="Object">minus</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Play (by name)" sid="7531884621352334" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="65366225120286">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9795053003604585" type="System">
+                            <param id="0" name="Variable">a11</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;?&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3198093741066121" type="a1">
+                            <param id="0" name="Text">&quot;-&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="7771494002695446" type="System">
+                            <param id="0" name="Variable">a11</param>
+                            <param id="1" name="Value">&quot;-&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7113396497783574">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5322025978224722" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="5110092547719377" type="a2">
+                            <param id="0" name="Text">&quot;-&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4217119382221405" type="System">
+                            <param id="0" name="Variable">a12</param>
+                            <param id="1" name="Value">&quot;-&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4867991325408717">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3490109865183806" type="Touch">
+                    <param id="0" name="Object">umn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Play (by name)" sid="5964328241515711" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="1698505879006286">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7217529955333121" type="System">
+                            <param id="0" name="Variable">a11</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;?&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1208393548671149" type="a1">
+                            <param id="0" name="Text">&quot;*&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4580289860419998" type="System">
+                            <param id="0" name="Variable">a11</param>
+                            <param id="1" name="Value">&quot;*&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1876232769874289">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9242234209137412" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1139262569451459" type="a2">
+                            <param id="0" name="Text">&quot;*&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="9896337402820652" type="System">
+                            <param id="0" name="Variable">a12</param>
+                            <param id="1" name="Value">&quot;*&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="932808213205999">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1581400548062704" type="Touch">
+                    <param id="0" name="Object">razd</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Play (by name)" sid="9377811831510862" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="869606930301494">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1544682173975568" type="System">
+                            <param id="0" name="Variable">a11</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;?&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9432165402898003" type="a1">
+                            <param id="0" name="Text">&quot;:&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="8648975031821012" type="System">
+                            <param id="0" name="Variable">a11</param>
+                            <param id="1" name="Value">&quot;:&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2010231037233256">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5108089895645346" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8389098121305595" type="a2">
+                            <param id="0" name="Text">&quot;:&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="5976613118813947" type="System">
+                            <param id="0" name="Variable">a12</param>
+                            <param id="1" name="Value">&quot;:&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7833597130932473">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9823665490363073" type="Touch">
+                    <param id="0" name="Object">plus</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Play (by name)" sid="3722353040710508" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="1755443696711338">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5762985038449222" type="System">
+                            <param id="0" name="Variable">a11</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;?&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2561097432630871" type="a1">
+                            <param id="0" name="Text">&quot;+&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6595740588582131" type="System">
+                            <param id="0" name="Variable">a11</param>
+                            <param id="1" name="Value">&quot;+&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9746795785021113">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3679165056817512" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1520297111193753" type="a2">
+                            <param id="0" name="Text">&quot;+&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1711405873233199" type="System">
+                            <param id="0" name="Variable">a12</param>
+                            <param id="1" name="Value">&quot;+&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6573474157736074">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5069443965450447" type="Touch">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8069483105790965" type="System">
+                    <param id="0" name="Variable">a11</param>
+                    <param id="1" name="Value">&quot;?&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="6990029056624709" type="a1">
+                    <param id="0" name="Text">&quot;?&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="3676738299583401" type="System">
+                    <param id="0" name="Variable">a12</param>
+                    <param id="1" name="Value">&quot;?&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="5369021888315861" type="a2">
+                    <param id="0" name="Text">&quot;?&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1198483925412072">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1175132056627668" type="Touch">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="6754545337104649" type="System">
+                    <param id="0" name="Variable">a11</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;*&quot;</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1275080846359654" type="System">
+                    <param id="0" name="Variable">a12</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;-&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="282549053714879" type="System">
+                    <param id="0" name="Layout">ариф4</param>
+                </action>
+                <action id="-9" name="Set value" sid="9889888823607285" type="System">
+                    <param id="0" name="Variable">a11</param>
+                    <param id="1" name="Value">&quot;?&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="2862007554455632" type="System">
+                    <param id="0" name="Variable">a12</param>
+                    <param id="1" name="Value">&quot;?&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7515843508810724">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2743596974165918" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="120215996492023" type="System">
+                    <param id="0" name="Layout">меню</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

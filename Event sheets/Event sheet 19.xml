@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 19</name>
+    <events>
+        <event-block sid="6804078644902952">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3075764209315301" type="Touch">
+                    <param id="0" name="Object">h</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8177941803752244" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;H&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="6573171596841634" type="hippopotamus">
+                    <param id="0" name="Text">&quot;H&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="1864206797582941" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="132734387537269">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3677595710851705" type="Touch">
+                    <param id="0" name="Object">i</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="6628900917110858" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;I&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="3142113711285198" type="hippopotamus">
+                    <param id="0" name="Text">&quot;I&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="1370295611722239" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7323954695212888">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9968737509078098" type="Touch">
+                    <param id="0" name="Object">p</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8783819404903186" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;P&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="3005843447415099" type="hippopotamus">
+                    <param id="0" name="Text">&quot;P&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="5939796767775201" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2929105725465305">
+            <conditions>
+                <condition id="3" name="On touched object" sid="364262228117999" type="Touch">
+                    <param id="0" name="Object">o</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="655823463593456" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;O&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="4638690820203721" type="hippopotamus">
+                    <param id="0" name="Text">&quot;O&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="4356581102429159" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3495655466650492">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1066355239441676" type="Touch">
+                    <param id="0" name="Object">t</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="4182665623560938" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;T&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="1525622690021232" type="hippopotamus">
+                    <param id="0" name="Text">&quot;T&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="1193871133059789" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9953862047257917">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9631564927640277" type="Touch">
+                    <param id="0" name="Object">a</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="164505738651456" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;A&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="9856546492146867" type="hippopotamus">
+                    <param id="0" name="Text">&quot;A&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="5000796515441259" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1579941311801424">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8666295969537703" type="Touch">
+                    <param id="0" name="Object">m</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="6256672407320736" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;M&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="9287181291714791" type="hippopotamus">
+                    <param id="0" name="Text">&quot;M&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="5514860375118062" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="207959616822096">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6472953589465591" type="Touch">
+                    <param id="0" name="Object">u</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="3573763255669485" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;U&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="8503119836330937" type="hippopotamus">
+                    <param id="0" name="Text">&quot;U&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="142547714927684" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="883388296985198">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9147390099508481" type="Touch">
+                    <param id="0" name="Object">s</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="2555629508402063" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;S&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="4530910232626137" type="hippopotamus">
+                    <param id="0" name="Text">&quot;S&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="1379407680390471" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5293641909467408">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2368094377114215" type="Touch">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9936508545278145" type="System">
+                    <param id="0" name="Variable">hipppopotamus</param>
+                    <param id="1" name="Value">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="9929788855727948" type="hippopotamus">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8381680411220945">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8763910147539879" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2037394385869659" type="System">
+                    <param id="0" name="Layout">меню</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="527959477097475">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5899754701212945" type="Touch">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1186150685534691">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2824219476219618" type="System">
+                            <param id="0" name="Variable">hipppopotamus</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;HIPPOPOTAMUS&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3004656418469187" type="System">
+                            <param id="0" name="Layout">меню</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="7171796575533514" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;2&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">0</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5802012558453964">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="6137714316106071" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="8366582027067376" type="System">
+                            <param id="0" name="Variable">hipppopotamus</param>
+                            <param id="1" name="Value">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="8452390181191577" type="hippopotamus">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="3803547945619032" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;1&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">0</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
