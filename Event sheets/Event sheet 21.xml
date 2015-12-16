@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 21</name>
+    <events>
+        <variable constant="0" name="orange1" sid="9362387197383654" static="0" type="text"></variable>
+        <event-block sid="310291761296268">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8011801325886694" type="Touch">
+                    <param id="0" name="Object">o</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="5468907165685144" type="System">
+                    <param id="0" name="Variable">orange1</param>
+                    <param id="1" name="Value">&quot;O&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="8043014790032124" type="orange">
+                    <param id="0" name="Text">&quot;O&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="659316119478255" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6928229168206399">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4101025343862765" type="Touch">
+                    <param id="0" name="Object">r</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="2473699551895431" type="System">
+                    <param id="0" name="Variable">orange1</param>
+                    <param id="1" name="Value">&quot;R&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="6211038635029129" type="orange">
+                    <param id="0" name="Text">&quot;R&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="6798870432662731" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6486402804173567">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3059451927401418" type="Touch">
+                    <param id="0" name="Object">a</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8652445666722418" type="System">
+                    <param id="0" name="Variable">orange1</param>
+                    <param id="1" name="Value">&quot;A&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="5598146839757187" type="orange">
+                    <param id="0" name="Text">&quot;A&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="2484311816731259" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5395148306069994">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4260466225723886" type="Touch">
+                    <param id="0" name="Object">n</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="4724406407234083" type="System">
+                    <param id="0" name="Variable">orange1</param>
+                    <param id="1" name="Value">&quot;N&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="4744116258967024" type="orange">
+                    <param id="0" name="Text">&quot;N&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="4129665515716106" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6933879309465133">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1550097337628399" type="Touch">
+                    <param id="0" name="Object">g</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="7511690896672347" type="System">
+                    <param id="0" name="Variable">orange1</param>
+                    <param id="1" name="Value">&quot;G&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="1045064270073932" type="orange">
+                    <param id="0" name="Text">&quot;G&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="5539017625374095" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6533477910129823">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7935080847039765" type="Touch">
+                    <param id="0" name="Object">e</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="7547122196353827" type="System">
+                    <param id="0" name="Variable">orange1</param>
+                    <param id="1" name="Value">&quot;E&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="7662940194627034" type="orange">
+                    <param id="0" name="Text">&quot;E&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="4180810433308089" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8661690344487237">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9340548744804667" type="Touch">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1159117123548347" type="System">
+                    <param id="0" name="Variable">orange1</param>
+                    <param id="1" name="Value">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="7749570400227405" type="orange">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5020253241078434">
+            <conditions>
+                <condition id="3" name="On touched object" sid="158083421002472" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5589643501452895" type="System">
+                    <param id="0" name="Layout">меню</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5312340589941979">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7159369239633139" type="Touch">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9233222454445638">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2060088587509588" type="System">
+                            <param id="0" name="Variable">orange1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;ORANGE&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="2938388283576113" type="System">
+                            <param id="0" name="Layout">переводbubble</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="8420512386587389" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;2&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">0</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8685641222661398">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="1565077692349439" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="4739941664136844" type="System">
+                            <param id="0" name="Variable">orange1</param>
+                            <param id="1" name="Value">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="9575826016761814" type="orange">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="2896466863013568" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;1&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">0</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

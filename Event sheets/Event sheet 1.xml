@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="8592239782847018">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6350195643796392" type="Touch">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3475854655338955" type="System">
+                    <param id="0" name="Layout">палата</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7626771968855526">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4361547485410599" type="Touch">
+                    <param id="0" name="Object">Sprite2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="304327774936133" type="System">
+                    <param id="0" name="Layout">orange</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8220573334852064">
+            <conditions>
+                <condition id="3" name="On touched object" sid="983777817047844" type="Touch">
+                    <param id="0" name="Object">Sprite3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3282359935504655" type="System">
+                    <param id="0" name="Layout">переводorange</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9241155381754904">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6893301485708579" type="Touch">
+                    <param id="0" name="Object">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7209214543004431" type="System">
+                    <param id="0" name="Layout">ариф1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

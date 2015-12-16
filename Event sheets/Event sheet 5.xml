@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 5</name>
+    <events>
+        <variable constant="0" name="календарь" sid="669953061358612" static="0" type="text"></variable>
+        <event-block sid="4581364821805348">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5546237377140089" type="Touch">
+                    <param id="0" name="Object">kr</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8979812945165418" type="System">
+                    <param id="0" name="Variable">календарь</param>
+                    <param id="1" name="Value">&quot;К&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="4929438893930736" type="kalend">
+                    <param id="0" name="Text">&quot;К&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="8065276232452215" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4131753082795018">
+            <conditions>
+                <condition id="3" name="On touched object" sid="607276053702334" type="Touch">
+                    <param id="0" name="Object">ar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="3512795452075393" type="System">
+                    <param id="0" name="Variable">календарь</param>
+                    <param id="1" name="Value">&quot;А&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="9001404044611658" type="kalend">
+                    <param id="0" name="Text">&quot;А&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="9781781717331029" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9220974273076172">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4435342304189164" type="Touch">
+                    <param id="0" name="Object">lr</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8808981053664006" type="System">
+                    <param id="0" name="Variable">календарь</param>
+                    <param id="1" name="Value">&quot;Л&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="1297673325821821" type="kalend">
+                    <param id="0" name="Text">&quot;Л&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="1949432500758007" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5638781958708089">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8212568506064188" type="Touch">
+                    <param id="0" name="Object">er</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="6246143499892513" type="System">
+                    <param id="0" name="Variable">календарь</param>
+                    <param id="1" name="Value">&quot;Е&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="8579001553753792" type="kalend">
+                    <param id="0" name="Text">&quot;Е&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="7967182612813968" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3234479009706565">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7517320701281446" type="Touch">
+                    <param id="0" name="Object">nr</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="6348727118687174" type="System">
+                    <param id="0" name="Variable">календарь</param>
+                    <param id="1" name="Value">&quot;Н&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="4654998665301386" type="kalend">
+                    <param id="0" name="Text">&quot;Н&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="1653031436458976" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5207163667990648">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3231795108487183" type="Touch">
+                    <param id="0" name="Object">dr</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="3486513929001065" type="System">
+                    <param id="0" name="Variable">календарь</param>
+                    <param id="1" name="Value">&quot;Д&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="330847128310511" type="kalend">
+                    <param id="0" name="Text">&quot;Д&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="3007108356695709" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3621696846805881">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4899708648659286" type="Touch">
+                    <param id="0" name="Object">rr</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="9461852454189635" type="System">
+                    <param id="0" name="Variable">календарь</param>
+                    <param id="1" name="Value">&quot;Р&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="1522779384754581" type="kalend">
+                    <param id="0" name="Text">&quot;Р&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="8814220250445938" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6653969724747959">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2558186044739146" type="Touch">
+                    <param id="0" name="Object">iir</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8452190885170233" type="System">
+                    <param id="0" name="Variable">календарь</param>
+                    <param id="1" name="Value">&quot;Ь&quot;</param>
+                </action>
+                <action id="1" name="Append text" sid="3935705870778743" type="kalend">
+                    <param id="0" name="Text">&quot;Ь&quot;</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="3381407680957071" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;00174&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3193643860427883">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3646942145437602" type="Touch">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1669755968430663" type="System">
+                    <param id="0" name="Variable">календарь</param>
+                    <param id="1" name="Value">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="5961179284618692" type="kalend">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8234065706386335">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5722210071916744" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5882544961369549" type="System">
+                    <param id="0" name="Layout">меню</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5856521838273427">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5135864596412035" type="Touch">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4054835189349341">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6868500462869844" type="System">
+                            <param id="0" name="Variable">календарь</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;КАЛЕНДАРЬ&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="9096406710795023" type="System">
+                            <param id="0" name="Layout">автомобилист</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="703448373293336" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;2&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">0</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3774874599868323">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="8021023077835545" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="8887403813625321" type="System">
+                            <param id="0" name="Variable">календарь</param>
+                            <param id="1" name="Value">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="6010532394767322" type="kalend">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="6102861067023916" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;1&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">0</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
